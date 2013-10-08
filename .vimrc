@@ -1,5 +1,5 @@
 execute pathogen#infect()
-synta enable
+syntax enable
 filetype plugin indent on
 set hidden
 set showmode
