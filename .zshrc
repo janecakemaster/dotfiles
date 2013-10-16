@@ -13,7 +13,6 @@ export EDITOR=vim
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias hdeploy="git push heroku master"
-alias ll="ls -alF"
 alias rmf="rm -rf"
 alias cunix="ssh jk3316@cunix.columbia.edu"
 alias clic="ssh jk3316@clic.cs.columbia.edu"
