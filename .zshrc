@@ -12,6 +12,14 @@ export EDITOR=vim
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias hdeploy="git push heroku master"
+alias ll="ls -alF"
+alias rmf="rm -rf"
+alias cunix="ssh jk3316@cunix.columbia.edu"
+alias clic="ssh jk3316@clic.cs.columbia.edu"
+alias dev="cd ~/dev"
+alias pesonal="cd ~/dev/personal"
+alias lovplugin="cd ~/dev/loverlywp/wordpress/wp-content/plugins/loverly-publisher"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -42,7 +50,7 @@ export EDITOR=vim
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git, zsh-syntax-highlighting)
+plugins=(git zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
