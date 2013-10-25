@@ -28,3 +28,5 @@
     changed = yellow
     untracked = cyan reverse
     branch = magenta
+[push]
+	default = simple
