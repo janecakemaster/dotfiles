@@ -14,3 +14,4 @@ alias gitp="git push origin master"
 alias personal="cd ~/dev/personal"
 alias lovplugin="cd ~/dev/loverlywp/wordpress/wp-content/plugins/loverly-publisher"
 PS1="\u:\W$ "
+export PATH=/usr/local/bin:/Users/janecakemaster/.rvm/gems/ruby-1.9.3-p362@rails3tutorial2ndEd/bin:/Users/janecakemaster/.rvm/gems/ruby-1.9.3-p362@global/bin:/Users/janecakemaster/.rvm/rubies/ruby-1.9.3-p362/bin:/Users/janecakemaster/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/usr/local/MacGPG2/bin:/Users/janecakemaster/.rvm/gems/ruby-1.9.3-p362@rails3tutorial2ndEd/bin:/Users/janecakemaster/.rvm/gems/ruby-1.9.3-p362@global/bin:/Users/janecakemaster/.rvm/rubies/ruby-1.9.3-p362/bin:/Users/janecakemaster/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/usr/local/MacGPG2/bin:/Users/janecakemaster/bin:/usr/bin
