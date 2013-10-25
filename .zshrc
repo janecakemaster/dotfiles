@@ -57,3 +57,7 @@ source $ZSH/oh-my-zsh.sh
 export PATH=$PATH:/Users/janecakemaster/.rvm/gems/ruby-1.9.3-p362@rails3tutorial2ndEd/bin:/Users/janecakemaster/.rvm/gems/ruby-1.9.3-p362@global/bin:/Users/janecakemaster/.rvm/rubies/ruby-1.9.3-p362/bin:/Users/janecakemaster/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/usr/local/MacGPG2/bin:/Users/janecakemaster/bin:/usr/bin
 export XML_CATALOG_FILES=/usr/local/etc/xml/catalog
 export PATH=/usr/local/bin:/Users/janecakemaster/.rvm/gems/ruby-1.9.3-p362@rails3tutorial2ndEd/bin:/Users/janecakemaster/.rvm/gems/ruby-1.9.3-p362@global/bin:/Users/janecakemaster/.rvm/rubies/ruby-1.9.3-p362/bin:/Users/janecakemaster/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/usr/local/MacGPG2/bin:/Users/janecakemaster/.rvm/gems/ruby-1.9.3-p362@rails3tutorial2ndEd/bin:/Users/janecakemaster/.rvm/gems/ruby-1.9.3-p362@global/bin:/Users/janecakemaster/.rvm/rubies/ruby-1.9.3-p362/bin:/Users/janecakemaster/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/usr/local/MacGPG2/bin:/Users/janecakemaster/bin:/usr/bin
+
+# Homebrew command tab completion
+fpath=($HOME/.zsh/func $fpath)
+typeset -U fpath
