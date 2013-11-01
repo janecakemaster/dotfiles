@@ -19,6 +19,7 @@ alias clic="ssh jk3316@clic.cs.columbia.edu"
 alias dev="cd ~/dev"
 alias pesonal="cd ~/dev/personal"
 alias lovplugin="cd ~/dev/loverlywp/wordpress/wp-content/plugins/loverly-publisher"
+alias grunt rel="grunt clean && grunt copy"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
