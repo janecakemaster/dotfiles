@@ -20,6 +20,7 @@ alias dev="cd ~/dev"
 alias pesonal="cd ~/dev/personal"
 alias lovplugin="cd ~/dev/loverlywp/wordpress/wp-content/plugins/loverly-publisher"
 alias grunt rel="grunt clean && grunt copy"
+alias boris="/usr/bin/boris/bin/boris"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
