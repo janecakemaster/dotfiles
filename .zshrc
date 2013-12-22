@@ -21,6 +21,7 @@ alias pesonal="cd ~/dev/personal"
 alias lovplugin="cd ~/dev/loverlywp/wordpress/wp-content/plugins/loverly-publisher"
 alias grunt rel="grunt clean && grunt copy"
 alias boris="/usr/bin/boris/bin/boris"
+alias lovssh="ssh -t jane@162.209.50.185 'cd /var/www/test_blog/ ; bash'"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
