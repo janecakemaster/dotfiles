@@ -1,9 +1,9 @@
 [user]
-    name = Jane Cakemaster
-    email = janecakemaster@gmail.com
+	name = janecakemaster
+	email = janecakemaster@gmail.com
 
 [credential]
-    helper = osxkeychain
+	helper = osxkeychain
 
 [core]
     excludefile = ~/.global_gitignore
