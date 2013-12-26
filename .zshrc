@@ -16,11 +16,9 @@ alias hdeploy="git push heroku master"
 alias rmf="rm -rf"
 alias cunix="ssh jk3316@cunix.columbia.edu"
 alias clic="ssh jk3316@clic.cs.columbia.edu"
-alias dev="cd ~/dev"
 alias pesonal="cd ~/dev/personal"
 alias lovplugin="cd ~/dev/loverlywp/wordpress/wp-content/plugins/loverly-publisher"
 alias grunt rel="grunt clean && grunt copy"
-alias boris="/usr/bin/boris/bin/boris"
 alias lovssh="ssh -t jane@162.209.50.185 'cd /var/www/test_blog/ ; bash'"
 
 # Set to this to use case-sensitive completion
@@ -57,9 +55,6 @@ plugins=(git zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=$PATH:/Users/janecakemaster/.rvm/gems/ruby-1.9.3-p362@rails3tutorial2ndEd/bin:/Users/janecakemaster/.rvm/gems/ruby-1.9.3-p362@global/bin:/Users/janecakemaster/.rvm/rubies/ruby-1.9.3-p362/bin:/Users/janecakemaster/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/usr/local/MacGPG2/bin:/Users/janecakemaster/bin:/usr/bin
-export XML_CATALOG_FILES=/usr/local/etc/xml/catalog
-export PATH=/usr/local/bin:/Users/janecakemaster/.rvm/gems/ruby-1.9.3-p362@rails3tutorial2ndEd/bin:/Users/janecakemaster/.rvm/gems/ruby-1.9.3-p362@global/bin:/Users/janecakemaster/.rvm/rubies/ruby-1.9.3-p362/bin:/Users/janecakemaster/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/usr/local/MacGPG2/bin:/Users/janecakemaster/.rvm/gems/ruby-1.9.3-p362@rails3tutorial2ndEd/bin:/Users/janecakemaster/.rvm/gems/ruby-1.9.3-p362@global/bin:/Users/janecakemaster/.rvm/rubies/ruby-1.9.3-p362/bin:/Users/janecakemaster/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/usr/local/MacGPG2/bin:/Users/janecakemaster/bin:/usr/bin
 
 # Homebrew command tab completion
 fpath=($HOME/.zsh/func $fpath)
