@@ -16,10 +16,11 @@ alias hdeploy="git push heroku master"
 alias rmf="rm -rf"
 alias cunix="ssh jk3316@cunix.columbia.edu"
 alias clic="ssh jk3316@clic.cs.columbia.edu"
-alias pesonal="cd ~/dev/personal"
+alias personal="cd ~/dev/personal"
 alias lovplugin="cd ~/dev/loverlywp/wordpress/wp-content/plugins/loverly-wp-plugin"
 alias grunt rel="grunt clean && grunt copy"
 alias lovssh="ssh -t jane@162.209.50.185 'cd /var/www/test_blog/ ; bash'"
+alias dev="cd ~/dev"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
