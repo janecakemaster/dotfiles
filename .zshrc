@@ -1,6 +1,8 @@
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 
+bindkey -v
+
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
@@ -18,9 +20,11 @@ alias cunix="ssh jk3316@cunix.columbia.edu"
 alias clic="ssh jk3316@clic.cs.columbia.edu"
 alias personal="cd ~/dev/personal"
 alias lovplugin="cd ~/dev/loverlywp/wordpress/wp-content/plugins/loverly-wp-plugin"
-alias grunt rel="grunt clean && grunt copy"
+alias grel="grunt clean && grunt copy"
 alias lovssh="ssh -t jane@162.209.50.185 'cd /var/www/test_blog/ ; bash'"
 alias dev="cd ~/dev"
+alias love="open /Applications/love.app/Contents/MacOS/love"
+alias makelove="zip -r game.love *"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -60,3 +64,7 @@ source $ZSH/oh-my-zsh.sh
 # Homebrew command tab completion
 fpath=($HOME/.zsh/func $fpath)
 typeset -U fpath
+
+# Add Android path
+ANDROID="${HOME}/dev/android/adt-bundle-mac-x86_64-20131030"
+export PATH="${ANDROID}/sdk/build-tools/android-4.4:${ANDROID}/sdk/tools:${ANDROID}/sdk/platform-tools:$PATH"
