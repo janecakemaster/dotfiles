@@ -26,9 +26,10 @@ alias dev="cd ~/dev"
 alias love="open /Applications/love.app/Contents/MacOS/love"
 alias makelove="zip -r game.love *"
 alias school="cd ~/Dropbox/Columbia/2014spring"
-alias response="/Users/cakemaster/Dropbox/Columbia/2014spring/postmodern-poetries/responses/create.sh"
-alias doctomd="/Users/cakemaster/convert.sh"
-alias docxtomd="/Users/cakemaster/convertx.sh"
+alias response="~/Dropbox/Columbia/2014spring/postmodern-poetries/responses/create.sh"
+alias doctomd="~/convert.sh"
+alias docxtomd="~/convertx.sh"
+alias mla="~/md-to-mla.sh"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
