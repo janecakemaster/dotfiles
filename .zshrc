@@ -25,6 +25,10 @@ alias lovssh="ssh -t jane@162.209.50.185 'cd /var/www/test_blog/ ; bash'"
 alias dev="cd ~/dev"
 alias love="open /Applications/love.app/Contents/MacOS/love"
 alias makelove="zip -r game.love *"
+alias school="cd ~/Dropbox/Columbia/2014spring"
+alias response="/Users/cakemaster/Dropbox/Columbia/2014spring/postmodern-poetries/responses/create.sh"
+alias doctomd="/Users/cakemaster/convert.sh"
+alias docxtomd="/Users/cakemaster/convertx.sh"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
