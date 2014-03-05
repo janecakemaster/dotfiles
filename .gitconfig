@@ -6,7 +6,8 @@
 	helper = osxkeychain
 
 [core]
-    excludefile = ~/.global_gitignore
+    excludefile = ~/.gitignore_global
+	excludesfile = /Users/cakemaster/.gitignore_global
 
 [color]
     ui = auto
