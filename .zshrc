@@ -25,8 +25,6 @@ alias love="open /Applications/love.app/Contents/MacOS/love"
 alias makelove="zip -r game.love *"
 alias school="cd ~/Dropbox/Columbia/2014spring"
 alias response="~/Dropbox/Columbia/2014spring/postmodern-poetries/responses/create.sh"
-alias doctomd="~/convert.sh"
-alias docxtomd="~/convertx.sh"
 alias mla="~/md-to-mla.sh"
 
 # Set to this to use case-sensitive completion
