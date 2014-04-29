@@ -69,3 +69,6 @@ typeset -U fpath
 # Add Android path
 ANDROID="${HOME}/dev/android/adt-bundle-mac-x86_64-20131030"
 export PATH="${ANDROID}/sdk/build-tools/android-4.4:${ANDROID}/sdk/tools:${ANDROID}/sdk/platform-tools:$PATH"
+
+export JAVA_HOME=$(/usr/libexec/java_home)
+export EC2_HOME=/usr/local/ec2/ec2-api-tools-1.6.13.0
