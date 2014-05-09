@@ -26,6 +26,8 @@ alias makelove="zip -r game.love *"
 alias school="cd ~/Dropbox/Columbia/2014spring"
 alias response="~/Dropbox/Columbia/2014spring/postmodern-poetries/responses/create.sh"
 alias mla="~/md-to-mla.sh"
+alias skim="/Applications/Skim.app/Contents/SharedSupport/skimpdf"
+alias skimnote="/Applications/Skim.app/Contents/SharedSupport/skimnotes"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
