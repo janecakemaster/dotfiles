@@ -1,33 +1,28 @@
 [user]
-	name = janecakemaster
-	email = janecakemaster@gmail.com
-
+	name = jane
+	email = jane@vimeo.com
 [credential]
 	helper = osxkeychain
-
+[push]
+	default = simple
 [core]
-    excludefile = ~/.gitignore_global
-	excludesfile = /Users/cakemaster/.gitignore_global
-
+	excludesfile = ~/.gitignore_global
+        excludesfile = ~/.gitignore_global
 [color]
     ui = auto
-
 [color "branch"]
     current = yellow
     local = yellow
     remote = magenta
-
 [color "diff"]
     meta = yellow bold
     frag = magenta bold
     old = red reverse
     new = green reverse
     whitespace = white reverse
-
 [color "status"]
     added = green
     changed = yellow
     untracked = cyan reverse
     branch = magenta
-[push]
-	default = simple
+

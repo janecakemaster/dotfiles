@@ -1,1 +1,38 @@
-.slate
+## Config
+config defaultToCurrentScreen true
+# Shows app icons and background apps, spreads icons in the same place.
+config windowHintsShowIcons true
+config windowHintsIgnoreHiddenWindows false
+
+## Aliases
+# Monitor Aliases
+alias mon 1
+alias air 0
+
+# Positions
+alias full          move screenOriginX;screenOriginY    screenSizeX;screenSizeY
+alias lefthalf      move screenOriginX;screenOriginY    screenSizeX/2;screenSizeY
+alias righthalf     move screenOriginX+screenSizeX/2;screenOriginY    screenSizeX/2;screenSizeY
+
+# Keys
+alias hyper ctrl;shift;alt;cmd
+
+## Bindings
+
+bind e:cmd hint ASDFGHJKL
+bind g:cmd grid padding:5 ${air}:3,5 ${mon}:6,5
+
+bind h:${hyper} ${lefthalf}
+bind l:${hyper} ${righthalf}
+bind u:${hyper} ${full}
+
+# App bindings
+bind g:${hyper} focus 'Google Chrome'
+bind s:${hyper} focus 'Sublime Text'
+bind m:${hyper} focus 'Mail'
+bind i:${hyper} focus 'iTerm'
+bind p:${hyper} focus 'Radiant Player'
+bind a:${hyper} focus 'HipChat'
+bind c:${hyper} focus 'Calendar'
+bind f:${hyper} focus 'Finder' 
+bind r:${hyper} focus 'Preview'
