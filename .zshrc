@@ -79,7 +79,6 @@ source $(brew --prefix nvm)/nvm.sh
 
 
 # aliases
-alias vimup='cd ~/vimeo/vimeo && vagrant up --provision'
 alias vst='vagrant status'
 alias rmf='rm -rf'
 alias nr='repl.history'
