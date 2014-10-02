@@ -20,19 +20,24 @@ alias hyper ctrl;shift;alt;cmd
 ## Bindings
 
 bind e:cmd hint ASDFGHJKL
-bind g:cmd grid padding:5 ${air}:3,5 ${mon}:6,5
+bind g:cmd grid padding:5 ${air}:4,5 ${mon}:6,5
 
 bind h:${hyper} ${lefthalf}
 bind l:${hyper} ${righthalf}
 bind u:${hyper} ${full}
 
 # App bindings
-bind g:${hyper} focus 'Google Chrome'
+bind c:${hyper} focus 'Google Chrome'
 bind s:${hyper} focus 'Sublime Text'
-bind m:${hyper} focus 'Mail'
 bind i:${hyper} focus 'iTerm'
-bind p:${hyper} focus 'Radiant Player'
-bind a:${hyper} focus 'HipChat'
-bind c:${hyper} focus 'Calendar'
 bind f:${hyper} focus 'Finder' 
-bind r:${hyper} focus 'Preview'
+bind g:${hyper} focus 'Ghostlab'
+bind m:${hyper} focus 'Mail'
+bind w:${hyper} focus 'HipChat'
+bind r:${hyper} focus 'Calendar'
+bind p:${hyper} focus 'Preview'
+bind x:${hyper} focus 'Radiant Player'
+bind e:${hyper} focus 'iTunes'
+bind o:${hyper} focus 'iOS Simulator'
+bind b:${hyper} focus 'Mailbox (Beta)' 
+bind d:${hyper} focus 'Adium'
