@@ -6,8 +6,8 @@ config windowHintsIgnoreHiddenWindows false
 
 ## Aliases
 # Monitor Aliases
-alias mon 1
-alias air 0
+alias mon 0
+alias air 1
 
 # Positions
 alias full          move screenOriginX;screenOriginY    screenSizeX;screenSizeY
