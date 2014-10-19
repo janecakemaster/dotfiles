@@ -85,3 +85,5 @@ alias nr='repl.history'
 alias mine='git log --author="jane" --stat'
 
 cmdz () { alias | grep "$1" }
+
+relpath() { python -c "import os.path; print os.path.relpath('$1','${2:-$PWD}')" ; }
