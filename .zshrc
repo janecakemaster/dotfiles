@@ -54,7 +54,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/usr/local:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="/usr/local:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/local/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -79,10 +79,11 @@ source $(brew --prefix nvm)/nvm.sh
 
 
 # aliases
-alias vst='vagrant status'
+alias vst='vagrant status && VBoxManage list runningvms'
 alias rmf='rm -rf'
 alias nr='repl.history'
 alias mine='git log --author="jane" --stat'
+alias greset='echo "reset to master" && git fetch --all && git reset --hard origin/master'
 
 cmdz () { alias | grep "$1" }
 
