@@ -83,7 +83,8 @@ alias vst='vagrant status && VBoxManage list runningvms'
 alias rmf='rm -rf'
 alias nr='repl.history'
 alias mine='git log --author="jane" --stat'
-alias greset='echo "reset to master" && git fetch --all && git reset --hard origin/master'
+alias snafu='echo "reset to master" && git fetch --all && git reset --hard origin/master'
+alias gum='git pull --rebase origin master' 
 
 cmdz () { alias | grep "$1" }
 
