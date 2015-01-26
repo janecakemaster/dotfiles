@@ -41,4 +41,5 @@ bind e:${hyper} focus 'Evernote'
 bind o:${hyper} focus 'iOS Simulator'
 # bind d:${hyper} focus 'Adium'
 bind n:${hyper} focus 'Sonos'
+bind y:${hyper} focus 'YNAB 4'
 
