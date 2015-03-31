@@ -1,7 +1,7 @@
 ## Config
 config defaultToCurrentScreen true
 # Shows app icons and background apps, spreads icons in the same place.
-config windowHintsShowIcons true
+config windowHintsShowIcons true 
 config windowHintsIgnoreHiddenWindows false
 
 ## Aliases
@@ -32,14 +32,14 @@ bind s:${hyper} focus 'Sublime Text'
 bind i:${hyper} focus 'iTerm'
 bind f:${hyper} focus 'Safari' 
 # bind g:${hyper} focus 'Ghostlab'
-bind m:${hyper} focus 'Microsoft Outlook'
+bind m:${hyper} focus 'Mail'
 bind w:${hyper} focus 'HipChat'
 bind r:${hyper} focus 'Calendar'
 bind p:${hyper} focus 'Preview'
 bind x:${hyper} focus 'Radiant Player'
 bind e:${hyper} focus 'Evernote'
 bind o:${hyper} focus 'iOS Simulator'
-# bind d:${hyper} focus 'Adium'
+bind d:${hyper} focus 'Adium'
 bind n:${hyper} focus 'Sonos'
 bind y:${hyper} focus 'YNAB 4'
 
