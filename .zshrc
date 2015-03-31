@@ -82,9 +82,19 @@ source $(brew --prefix nvm)/nvm.sh
 alias vst='vagrant status && VBoxManage list runningvms'
 alias rmf='rm -rf'
 alias nr='repl.history'
-alias mine='git log --author="jane" --stat'
-alias snafu='echo "reset to master" && git fetch --all && git reset --hard origin/master'
+
+## git
+alias gcam='git commit -a -m'
 alias gum='git pull --rebase origin master' 
+alias glg='git log --pretty=format:"%h %C(dim yellow)%ar%Creset %C(cyan)%s%Creset" --stat'
+alias mine='glg --committer="jane"'
+alias scrup='mine --since=1.day'
+alias gsub='git submodule update --recursive'
+alias gsht='git status -s'
+alias grevert='git reset --soft HEAD~1'
+greset () { git reset --soft HEAD~$1 }
+
+alias snafu='echo "reset to master" && git fetch --all && git reset --hard origin/master'
 
 cmdz () { alias | grep "$1" }
 
