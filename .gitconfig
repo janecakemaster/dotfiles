@@ -1,13 +1,13 @@
 [user]
-	name = jane
-	email = jane@vimeo.com
+	name = Jane
+	email = janecakemaster@gmail.com
 [credential]
 	helper = osxkeychain
 [push]
 	default = simple
 [core]
 	excludesfile = ~/.gitignore_global
-        excludesfile = ~/.gitignore_global
+	editor = vim
 [color]
     ui = auto
 [color "branch"]
