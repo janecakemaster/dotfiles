@@ -30,6 +30,10 @@ greset () { git reset --soft HEAD~$1 }
 
 alias snafu='echo "reset to master" && git fetch --all && git reset --hard origin/master'
 
+## heroku
+alias hdeploy='git push heroku master && heroku open'
+alias hlocal='foreman start web'
+
 cmdz () { alias | grep "$1" }
 
 relpath() { python -c "import os.path; print os.path.relpath('$1','${2:-$PWD}')" ; }
