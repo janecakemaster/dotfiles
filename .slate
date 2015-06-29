@@ -19,7 +19,7 @@ alias hyper ctrl;shift;alt;cmd
 
 ## Bindings
 
-bind e:cmd hint ASDFGHJKL
+bind e:${hyper} hint ASDFGHJKL
 #bind g:cmd grid padding:5 0:16,9 1:6,5
 
 # bind h:${hyper} ${lefthalf}
@@ -34,7 +34,7 @@ bind f:${hyper} focus 'Finder'
 # bind g:${hyper} focus 'Ghostlab'
 # bind m:${hyper} focus 'Mail'
 # bind w:${hyper} focus 'HipChat'
-# bind r:${hyper} focus 'Calendar'
+bind r:${hyper} focus 'Calendar'
 bind p:${hyper} focus 'Preview'
 bind x:${hyper} focus 'Radiant Player'
 # bind e:${hyper} focus 'Evernote'

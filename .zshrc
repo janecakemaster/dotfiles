@@ -3,7 +3,7 @@ export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="cloud"
 COMPLETION_WAITING_DOTS="true"
 DISABLE_UNTRACKED_FILES_DIRTY="true"
-plugins=(git zsh-syntax-highlighting)
+plugins=(gitfast zsh-syntax-highlighting heroku)
 
 source $ZSH/oh-my-zsh.sh
 export LANG=en_US.UTF-8
@@ -26,6 +26,7 @@ alias gsub='git submodule update --recursive'
 alias gsht='git status -s'
 alias grevert='git reset --soft HEAD~1'
 alias gpnew='git push --set-upstream origin'
+
 greset () { git reset --soft HEAD~$1 }
 
 alias snafu='echo "reset to master" && git fetch --all && git reset --hard origin/master'
@@ -33,7 +34,11 @@ alias snafu='echo "reset to master" && git fetch --all && git reset --hard origi
 ## heroku
 alias hdeploy='git push heroku master && heroku open'
 alias hlocal='foreman start web'
+alias hdeployorigin='git push heroku heroku:master'
 
 cmdz () { alias | grep "$1" }
 
 relpath() { python -c "import os.path; print os.path.relpath('$1','${2:-$PWD}')" ; }
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
