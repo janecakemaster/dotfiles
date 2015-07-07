@@ -19,7 +19,7 @@ alias nr='repl.history'
 ## git
 alias gcam='git commit -a -m'
 alias gum='git pull --rebase origin master' 
-alias glg='git log --pretty=format:"%h %C(dim yellow)%ar%Creset %C(cyan)%s%Creset" --stat'
+alias glg='git log --pretty=format:"%h %C(green)%cn%Creset %C(dim yellow)%ar%Creset %C(cyan)%s%Creset" --stat'
 alias mine='glg --committer="jane"'
 alias scrup='mine --since=1.day'
 alias gsub='git submodule update --recursive'
