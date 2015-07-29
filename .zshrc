@@ -32,9 +32,9 @@ greset () { git reset --soft HEAD~$1 }
 alias snafu='echo "reset to master" && git fetch --all && git reset --hard origin/master'
 
 ## heroku
-alias hdeploy='git push heroku master && heroku open'
+alias hdeploymaster='git push heroku master && heroku open'
 alias hlocal='foreman start web'
-alias hdeployorigin='git push heroku heroku:master'
+alias hdeploy='git push heroku heroku:master'
 
 cmdz () { alias | grep "$1" }
 
