@@ -42,3 +42,5 @@ relpath() { python -c "import os.path; print os.path.relpath('$1','${2:-$PWD}')"
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+eval "$(direnv hook zsh)"
