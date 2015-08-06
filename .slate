@@ -20,27 +20,27 @@ alias hyper ctrl;shift;alt;cmd
 ## Bindings
 
 bind e:${hyper} hint ASDFGHJKL
-#bind g:cmd grid padding:5 0:16,9 1:6,5
+bind g:cmd grid padding:5 0:16,9 1:6,5
 
 # bind h:${hyper} ${lefthalf}
 # bind l:${hyper} ${righthalf}
 # bind u:${hyper} ${full}
 
 # App bindings
+bind b:${hyper} focus 'Slack'
 bind c:${hyper} focus 'Google Chrome'
-bind s:${hyper} focus 'Sublime Text'
-bind i:${hyper} focus 'iTerm'
+# bind d:${hyper} focus 'Adium'
+# bind e:${hyper} taken by hint
 bind f:${hyper} focus 'Finder'
 # bind g:${hyper} focus 'Ghostlab'
-# bind m:${hyper} focus 'Mail'
-# bind w:${hyper} focus 'HipChat'
-bind r:${hyper} focus 'Calendar'
-bind p:${hyper} focus 'Preview'
-bind x:${hyper} focus 'Radiant Player'
-# bind e:${hyper} focus 'Evernote'
-bind o:${hyper} focus 'iOS Simulator'
-# bind d:${hyper} focus 'Adium'
+bind i:${hyper} focus 'iTerm'
+bind m:${hyper} focus 'Mail'
 bind n:${hyper} focus 'Sonos'
+bind o:${hyper} focus 'iOS Simulator'
+bind p:${hyper} focus 'Preview'
+bind r:${hyper} focus 'Calendar'
+bind s:${hyper} focus 'Sublime Text'
+bind w:${hyper} focus 'HipChat'
+bind x:${hyper} focus 'Radiant Player'
 bind y:${hyper} focus 'YNAB 4'
-bind b:${hyper} focus 'Slack'
 
