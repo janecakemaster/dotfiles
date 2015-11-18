@@ -22,7 +22,6 @@ alias gum='git pull --rebase origin master'
 alias glg='git log --pretty=format:"%h %C(green)%cn%Creset %C(dim yellow)%ar%Creset %C(cyan)%s%Creset" --stat'
 alias mine='glg --committer="jane"'
 alias scrup='mine --since=1.day'
-alias gsub='git submodule update --recursive'
 alias gsht='git status -s'
 alias grevert='git reset --soft HEAD~1'
 alias gpnew='git push --set-upstream origin'
@@ -43,4 +42,3 @@ relpath() { python -c "import os.path; print os.path.relpath('$1','${2:-$PWD}')"
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
-eval "$(direnv hook zsh)"
