@@ -1,3 +1,5 @@
+# Initial env setup
+
 ## OSX tools
 * install alfred
 * install iterm 2
@@ -9,9 +11,10 @@
 * install node
 * install eslint globally
 * install gulp globally
-* run .osx
-* install oh-my-zsh
-* copy over dotfiles
+* run `dotfiles/.osx`
+* install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+* symlink `.zshrc`
+* copy over `.slate` and install [Slate](https://github.com/jigish/slate)
 
 ## Use caps as control
 1. Go to System Preferences => Keyboard
@@ -23,7 +26,7 @@
 2. Go to Modifier Keys...
 3. Switch Control to No Action
 4. Open Seil
-5. Change Control_L to 80
+5. Change Control_L to 80 (F19 key)
 6. Open Karabiner and go to Misc & Uninstall
 7. Under Custom Setting click Open private.xml
 8. Add following snippet to `private.xml`
