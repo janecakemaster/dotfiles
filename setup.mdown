@@ -4,17 +4,8 @@
 * install alfred
 * install iterm 2
 * install sublime text 3
-
-## CLI tools
-* install brew
-* install dev tools
-* install node
-* install eslint globally
-* install gulp globally
-* run `dotfiles/.osx`
-* install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
-* symlink `.zshrc`
-* copy over `.slate` and install [Slate](https://github.com/jigish/slate)
+* install seil & karabiner
+* install spectacle
 
 ## Use caps as control
 1. Go to System Preferences => Keyboard
@@ -50,3 +41,15 @@
 
 9. On Change Key tab, click Reload XML
 10. Select Remap Left Control to Hyper
+
+## CLI tools
+* install brew
+* install dev tools
+* install node
+* install eslint globally
+* install gulp globally
+* run `dotfiles/.osx`
+* install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+* symlink `.zshrc`
+* copy over `.slate` and install [Slate](https://github.com/jigish/slate)
+
