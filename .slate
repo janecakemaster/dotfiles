@@ -1,14 +1,19 @@
-## Config
+# Config
 config defaultToCurrentScreen true
+checkDefaultsOnLoad true
+orderScreensLeftToRight true
+
+
 # Shows app icons and background apps, spreads icons in the same place.
 config windowHintsShowIcons true 
 config windowHintsIgnoreHiddenWindows false
+config windowHintsSpread true
 
 # Keys
 alias hyper ctrl;shift;alt;cmd
 alias ctrlcmd ctrl;cmd
 
-## Bindings
+# Bindings
 
 bind e:${ctrlcmd} hint ASDFGHJKL
 
