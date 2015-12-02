@@ -4,35 +4,19 @@ config defaultToCurrentScreen true
 config windowHintsShowIcons true 
 config windowHintsIgnoreHiddenWindows false
 
-## Aliases
-# Monitor Aliases
-alias mon 0
-alias cmp 1
-
-# Positions
-# alias full          move screenOriginX;screenOriginY    screenSizeX;screenSizeY
-# alias lefthalf      move screenOriginX;screenOriginY    screenSizeX/2;screenSizeY
-# alias righthalf     move screenOriginX+screenSizeX/2;screenOriginY    screenSizeX/2;screenSizeY
-
 # Keys
 alias hyper ctrl;shift;alt;cmd
+alias ctrlcmd ctrl;cmd
 
 ## Bindings
 
-bind e:${hyper} hint ASDFGHJKL
-bind g:cmd grid padding:5 0:16,9 1:6,5
-
-# bind h:${hyper} ${lefthalf}
-# bind l:${hyper} ${righthalf}
-# bind u:${hyper} ${full}
+bind e:${ctrlcmd} hint ASDFGHJKL
 
 # App bindings
 bind b:${hyper} focus 'Slack'
 bind c:${hyper} focus 'Google Chrome'
-# bind d:${hyper} focus 'Adium'
-# bind e:${hyper} taken by hint
 bind f:${hyper} focus 'Finder'
-# bind g:${hyper} focus 'Ghostlab'
+bind g:${hyper} focus 'Safari'
 bind i:${hyper} focus 'iTerm'
 bind m:${hyper} focus 'Mail'
 bind n:${hyper} focus 'Sonos'
