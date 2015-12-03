@@ -3,7 +3,11 @@ export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="cloud"
 COMPLETION_WAITING_DOTS="true"
 DISABLE_UNTRACKED_FILES_DIRTY="true"
+<<<<<<< HEAD
 plugins=(gitfast zsh-syntax-highlighting heroku)
+=======
+plugins=(gitfast zsh-syntax-highlighting heroku npm)
+>>>>>>> 03dd5a2492ec3357b13d6538d0e1be5b0b3d2d25
 
 source $ZSH/oh-my-zsh.sh
 export LANG=en_US.UTF-8
