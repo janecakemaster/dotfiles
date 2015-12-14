@@ -3,7 +3,7 @@ export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="cloud"
 COMPLETION_WAITING_DOTS="true"
 DISABLE_UNTRACKED_FILES_DIRTY="true"
-plugins=(gitfast zsh-syntax-highlighting heroku npm)
+plugins=(gitfast zsh-syntax-highlighting heroku npm vagrant)
 
 source $ZSH/oh-my-zsh.sh
 export LANG=en_US.UTF-8
@@ -15,6 +15,7 @@ export SSH_KEY_PATH="~/.ssh/id_rsa"
 alias vst='vagrant status && VBoxManage list runningvms'
 alias rmf='rm -rf'
 alias nr='repl.history'
+alias vup='vagrant up --provision'
 
 ## git
 alias gcam='git commit -a -m'
