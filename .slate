@@ -11,7 +11,7 @@ alias ctrlcmd ctrl;cmd
 
 # Bindings
 
-bind e:${ctrlcmd} hint ASDFGHJKL
+bind e:${hyper} hint ASDFGHJKL
 
 # App bindings
 bind b:${hyper} focus 'Slack'
@@ -19,7 +19,7 @@ bind c:${hyper} focus 'Google Chrome'
 bind f:${hyper} focus 'Finder'
 bind g:${hyper} focus 'Safari'
 bind i:${hyper} focus 'iTerm'
-bind m:${hyper} focus 'Mail'
+bind m:${hyper} focus 'Nylas N1'
 bind n:${hyper} focus 'Sonos'
 bind o:${hyper} focus 'iOS Simulator'
 bind p:${hyper} focus 'Preview'
