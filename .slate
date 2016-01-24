@@ -1,46 +1,37 @@
 ## Config
 config defaultToCurrentScreen true
+
 # Shows app icons and background apps, spreads icons in the same place.
 config windowHintsShowIcons true 
 config windowHintsIgnoreHiddenWindows false
 
-## Aliases
-# Monitor Aliases
-alias mon 0
-alias cmp 1
-
-# Positions
-# alias full          move screenOriginX;screenOriginY    screenSizeX;screenSizeY
-# alias lefthalf      move screenOriginX;screenOriginY    screenSizeX/2;screenSizeY
-# alias righthalf     move screenOriginX+screenSizeX/2;screenOriginY    screenSizeX/2;screenSizeY
-
 # Keys
 alias hyper ctrl;shift;alt;cmd
+alias ctrlcmd ctrl;cmd
 
-## Bindings
+# Bindings
 
 bind e:${hyper} hint ASDFGHJKL
-bind g:cmd grid padding:5 0:16,9 1:6,5
-
-# bind h:${hyper} ${lefthalf}
-# bind l:${hyper} ${righthalf}
-# bind u:${hyper} ${full}
 
 # App bindings
 bind b:${hyper} focus 'Slack'
 bind c:${hyper} focus 'Google Chrome'
-# bind d:${hyper} focus 'Adium'
-# bind e:${hyper} taken by hint
+#bind d:${hyper} focus 'Sketch'
 bind f:${hyper} focus 'Finder'
-# bind g:${hyper} focus 'Ghostlab'
+bind g:${hyper} focus 'Safari'
 bind i:${hyper} focus 'iTerm'
-bind m:${hyper} focus 'Mail'
+bind m:${hyper} focus 'Nylas N1'
 bind n:${hyper} focus 'Sonos'
 bind o:${hyper} focus 'iOS Simulator'
 bind p:${hyper} focus 'Preview'
+#bind q:${hyper} focus 'Preview'
 bind r:${hyper} focus 'Sunrise Calendar'
 bind s:${hyper} focus 'Sublime Text'
-bind w:${hyper} focus 'TweetDeck'
+bind t:${hyper} focus 'Sketch'
+#bind u:${hyper} focus 'Sublime Text'
+#bind v:${hyper} focus 'Sublime Text'
+#bind w:${hyper} focus 'TweetDeck'
 bind x:${hyper} focus 'Radiant Player'
 bind y:${hyper} focus 'YNAB 4'
+bind z:${hyper} focus 'Zeplin'
 
