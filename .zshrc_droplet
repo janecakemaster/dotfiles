@@ -1,12 +1,14 @@
 export ZSH=$HOME/.oh-my-zsh
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
 
-ZSH_THEME="cloud"
+ZSH_THEME=gianu
 COMPLETION_WAITING_DOTS="true"
 DISABLE_UNTRACKED_FILES_DIRTY="true"
 plugins=(gitfast zsh-syntax-highlighting heroku)
 
 source $ZSH/oh-my-zsh.sh
+
+[[ -s /home/$USER/.nvm/nvm.sh ]] && . /home/$USER/.nvm/nvm.sh
 
 export LANG=en_US.UTF-8
 export EDITOR='vim'
