@@ -26,6 +26,7 @@ alias scrup='mine --since=1.day'
 alias gsht='git status -s'
 alias grevert='git reset --soft HEAD~1'
 alias gpnew='git push --set-upstream origin'
+alias ggfpush='git push origin +$(git_current_branch)'
 
 greset () { git reset --soft HEAD~$1 }
 
@@ -42,4 +43,6 @@ relpath() { python -c "import os.path; print os.path.relpath('$1','${2:-$PWD}')"
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+export SLIMERJSLAUNCHER=/Applications/Firefox.app/Contents/MacOS/firefox
 
