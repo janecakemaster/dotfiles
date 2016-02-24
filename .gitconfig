@@ -20,3 +20,6 @@
     changed = yellow
     untracked = cyan reverse
     branch = magenta
+[user]
+    name = 'Jane Kim'
+	email = jane@janekim.me
