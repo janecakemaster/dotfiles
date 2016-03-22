@@ -41,8 +41,7 @@ cmdz () { alias | grep "$1" }
 
 relpath() { python -c "import os.path; print os.path.relpath('$1','${2:-$PWD}')" ; }
 
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
+export PATH="/usr/local/bin:/usr/local/heroku/bin:$PATH"
 
 export SLIMERJSLAUNCHER=/Applications/Firefox.app/Contents/MacOS/firefox
 
@@ -51,3 +50,5 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 
 ## shell integration for iterm
 source ~/.iterm2_shell_integration.`basename $SHELL`
+# added by travis gem
+[ -f /Users/janekim/.travis/travis.sh ] && source /Users/janekim/.travis/travis.sh

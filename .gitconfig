@@ -1,8 +1,8 @@
 [push]
-	default = simple
+    default = simple
 [core]
-	excludesfile = ~/.gitignore_global
-	editor = vim
+    excludesfile = ~/.gitignore_global
+    editor = vim
 [color]
     ui = auto
 [color "branch"]
@@ -20,4 +20,6 @@
     changed = yellow
     untracked = cyan reverse
     branch = magenta
-
+[user]
+    name = 'Jane Kim'
+	email = jane@janekim.me
