@@ -25,7 +25,7 @@ alias mine='glg --committer="jane"'
 alias scrup='mine --since=1.day'
 alias gsht='git status -s'
 alias grevert='git reset --soft HEAD~1'
-alias gpnew='git push --set-upstream origin'
+alias gpnew='git push --set-upstream origin $(git_current_branch)'
 alias ggfpush='git push origin +$(git_current_branch)'
 
 greset () { git reset --soft HEAD~$1 }
@@ -46,3 +46,8 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 export SLIMERJSLAUNCHER=/Applications/Firefox.app/Contents/MacOS/firefox
 
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+## shell integration for iterm
+source ~/.iterm2_shell_integration.`basename $SHELL`
