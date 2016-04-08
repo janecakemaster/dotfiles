@@ -30,6 +30,6 @@ bind t:${hyper} focus 'Sketch'
 bind v:${hyper} focus ''
 #bind w:${hyper} focus ''
 bind x:${hyper} focus 'Radiant Player'
-#bind y:${hyper} focus ''
+bind y:${hyper} focus 'Nylas N1'
 bind z:${hyper} focus 'Zeplin'
 
