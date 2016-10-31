@@ -1,0 +1,22 @@
+set shiftwidth=2
+set smartindent
+set wrap
+
+"plugins
+"filetype stuff
+au BufRead,BufNewFile *.hbs set filetype=mustache
+
+"Open new split panes to right and bottom, which feels more natural than Vim’s
+set splitbelow
+set splitright
+
+"pane switching
+"instead of ctrl-w then j, it’s just ctrl-j
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+"change min window height only displays filename
+set wmh=0
+
