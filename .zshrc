@@ -42,8 +42,7 @@ alias hdeploy='git push heroku heroku:master'
 
 cmdz () { alias | grep "$1" }
 
+#moved to .zprofile
+#export NVM_DIR="/Users/janekim/.nvm"
+#[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
-
-
-export NVM_DIR="/Users/jkim/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
