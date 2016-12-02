@@ -1,2 +1,2 @@
-Plugin 'isRuslan/vim-es6'
 Plugin 'mustache/vim-mustache-handlebars'
+Plugin 'mxw/vim-jsx'
