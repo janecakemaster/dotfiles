@@ -14,6 +14,7 @@ export PATH="/usr/local/bin:/usr/local/heroku/bin:$PATH"
 # aliases
 alias rmf='rm -rf'
 alias nr='repl.history'
+alias updateall='brew update && brew upgrade && nvm use && npm -g upgrade'
 
 ## git
 alias gum='git pull --rebase origin master' 
