@@ -31,10 +31,13 @@ launch = function(appname)
 end
 
 -- Single keybinding for app launch
+-- keys used by Spectacle: f,j,k,l,u
 singleapps = {
   {'a', 'Atom'},
   {'b', 'Slack'},
   {'c', 'Google Chrome'},
+  {'n', 'Sonos'},
+  {'m', 'Messages'},
   {'r', 'Calendar'},
   {'s', 'Spotify'}
 }
