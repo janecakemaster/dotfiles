@@ -36,8 +36,8 @@ singleapps = {
   {'a', 'Atom'},
   {'b', 'Slack'},
   {'c', 'Google Chrome'},
-  {'n', 'Sonos'},
   {'m', 'Messages'},
+  {'n', 'Sonos'},
   {'r', 'Calendar'},
   {'s', 'Spotify'}
 }
