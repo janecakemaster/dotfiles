@@ -1,2 +1,3 @@
 Plugin 'mustache/vim-mustache-handlebars'
 Plugin 'mxw/vim-jsx'
+Plugin 'heavenshell/vim-jsdoc'
