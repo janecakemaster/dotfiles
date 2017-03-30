@@ -20,4 +20,3 @@ nnoremap <C-H> <C-W><C-H>
 "change min window height only displays filename
 set wmh=0
 set tabstop=2 softtabstop=0 expandtab shiftwidth=2 smarttab
-
