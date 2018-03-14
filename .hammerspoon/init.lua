@@ -38,8 +38,7 @@ singleapps = {
   {'m', 'Messages'},
   {'n', 'Sonos'},
   {'o', 'Visual Studio Code'},
-  {'r', 'Calendar'},
-  {'s', 'Spotify'}
+  {'s', 'Google Play Music Desktop Player'}
 }
 
 for i, app in ipairs(singleapps) do
