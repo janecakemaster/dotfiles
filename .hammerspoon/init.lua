@@ -33,11 +33,11 @@ end
 -- Single keybinding for app launch
 -- keys used by Spectacle: f,j,k,l,u
 singleapps = {
-  {'a', 'Atom'},
   {'b', 'Slack'},
   {'c', 'Google Chrome'},
   {'m', 'Messages'},
   {'n', 'Sonos'},
+  {'o', 'Visual Studio Code'},
   {'r', 'Calendar'},
   {'s', 'Spotify'}
 }
