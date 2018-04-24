@@ -21,5 +21,9 @@
     "terminal.external.osxExec": "iTerm.app",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
-    "terminal.integrated.shell.osx": "zsh"
+    "terminal.integrated.shell.osx": "zsh",
+    "terminal.integrated.shellArgs.osx": [],
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    }
 }
