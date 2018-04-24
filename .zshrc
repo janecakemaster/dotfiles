@@ -27,8 +27,3 @@ alias snafu='echo "reset to master" && git fetch --all && git reset --hard origi
 alias gmz='git merge -X theirs'
 
 cmdz () { alias | grep "$1" }
-
-#moved to .zprofile
-#export NVM_DIR="/Users/janekim/.nvm"
-#[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-
