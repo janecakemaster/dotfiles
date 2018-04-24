@@ -1,18 +1,18 @@
 
 -- A global variable for the Hyper Mode
-k = hs.hotkey.modal.new({}, "F17")
+hyper = hs.hotkey.modal.new({}, "F17")
 
 -- Enter Hyper Mode when F18 (Hyper/Capslock) is pressed
 pressedF18 = function()
-  k.triggered = false
-  k:enter()
+  hyper.triggered = false
+  hyper:enter()
 end
 
 -- Leave Hyper Mode when F18 (Hyper/Capslock) is pressed,
 --   send ESCAPE if no other keys are pressed.
 releasedF18 = function()
-  k:exit()
-  if not k.triggered then
+  hyper:exit()
+  if not hyper.triggered then
     hs.eventtap.keyStroke({}, 'ESCAPE')
   end
 end
@@ -22,12 +22,12 @@ f18 = hs.hotkey.bind({}, 'F18', pressedF18, releasedF18)
 
 spectacle = {'f', 'h', 'i', 'j', 'k', 'l', 'u'}
 for i, key in ipairs(spectacle) do
-  k:bind({}, key, nil, function() hs.eventtap.keyStroke({"cmd","alt","shift","ctrl"}, key) end)
+  hyper:bind({}, key, nil, function() hs.eventtap.keyStroke({"cmd","alt","shift","ctrl"}, key) end)
 end
 
 launch = function(appname)
   hs.application.launchOrFocus(appname)
-  k.triggered = true
+  hyper.triggered = true
 end
 
 -- Single keybinding for app launch
@@ -42,6 +42,6 @@ singleapps = {
 }
 
 for i, app in ipairs(singleapps) do
-  k:bind({}, app[1], function() launch(app[2]); k:exit(); end)
+  hyper:bind({}, app[1], function() launch(app[2]); hyper:exit(); end)
 end
 

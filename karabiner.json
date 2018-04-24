@@ -4,7 +4,12 @@
             "name": "Default profile",
             "selected": true,
             "simple_modifications": {
-                "caps_lock": "f18"
+                "from": {
+                    "key_code": "caps_lock"
+                },
+                "to": {
+                    "key_code": "f18"
+                }
             }
         }
     ]

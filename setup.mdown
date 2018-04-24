@@ -1,46 +1,11 @@
 # Initial env setup
 
 ## OSX tools
-* install alfred
-* install iterm 2
-* install sublime text 3
-* install seil & karabiner
-* install spectacle
-
-## Use caps as control
-1. Go to System Preferences => Keyboard
-2. Go to Modifier Keys...
-3. Switch Caps Lock to Control
-
-## Create Hyper Key
-1. Go to System Preferences => Keyboard
-2. Go to Modifier Keys...
-3. Switch Control to No Action
-4. Open Seil
-5. Change Control_L to 80 (F19 key)
-6. Open Karabiner and go to Misc & Uninstall
-7. Under Custom Setting click Open private.xml
-8. Add following snippet to `private.xml`
-
-```xml
-<item>
-    <name>Remap Left Control to Hyper</name>
-    <appendix>OS X doesn't have a Hyper. This maps Left Control to Control + Shift + Option + Command.</appendix>
-
-    <identifier>space_cadet.left_control_to_hyper</identifier>
-
-    <autogen>
-        --KeyToKey--
-        KeyCode::F19,
-
-        KeyCode::COMMAND_L,
-        ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L
-    </autogen>
-</item>
-```
-
-9. On Change Key tab, click Reload XML
-10. Select Remap Left Control to Hyper
+1. install alfred
+2. install iterm 2
+3. install xcode and enable shell code
+4. install karabiner and install beta
+5. install spectacle
 
 ## CLI tools
 * install brew
@@ -48,7 +13,7 @@
 * install node
 * install eslint globally
 * install gulp globally
-* run `dotfiles/.osx`
+* run `dotfiles/.macos`
 * install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 * symlink `.zshrc`
 * copy over `.slate` and install [Slate](https://github.com/jigish/slate)

@@ -1,14 +1,12 @@
 export ZSH=$HOME/.oh-my-zsh
 
 ZSH_THEME="cloud"
-COMPLETION_WAITING_DOTS="true"
-DISABLE_UNTRACKED_FILES_DIRTY="true"
+COMPLETION_WAITING_DOTS="true" DISABLE_UNTRACKED_FILES_DIRTY="true"
 plugins=(gitfast zsh-syntax-highlighting npm)
 
 source $ZSH/oh-my-zsh.sh
 export LANG=en_US.UTF-8
 export EDITOR='vim'
-
 export PATH="/usr/local/bin:/usr/local/heroku/bin:$PATH"
 
 # aliases
