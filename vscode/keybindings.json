@@ -1,0 +1,6 @@
+[
+    {
+        "key": "shift+cmd+i",
+        "command": "workbench.action.terminal.toggleTerminal"
+    }
+]
