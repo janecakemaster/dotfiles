@@ -27,3 +27,7 @@ alias snafu='echo "reset to master" && git fetch --all && git reset --hard origi
 alias gmz='git merge -X theirs'
 
 cmdz () { alias | grep "$1" }
+
+export NVM_DIR="/Users/jkim/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

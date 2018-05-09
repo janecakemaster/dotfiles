@@ -1,6 +1,18 @@
-[
-    {
-        "key": "shift+cmd+i",
-        "command": "workbench.action.terminal.toggleTerminal"
-    }
-]
+{
+    "editor.minimap.enabled": false,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        }
+    ],
+   "terminal.external.osxExec": "iTerm.app",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "terminal.integrated.shell.osx": "zsh",
+    "terminal.integrated.shellArgs.osx": [],
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "window.zoomLevel": 1
+}
