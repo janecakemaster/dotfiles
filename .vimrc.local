@@ -2,10 +2,6 @@ set shiftwidth=2
 set smartindent
 set wrap
 
-"plugins
-"filetype stuff
-au BufRead,BufNewFile *.hbs set filetype=mustache
-
 "Open new split panes to right and bottom, which feels more natural than Vim’s
 set splitbelow
 set splitright
