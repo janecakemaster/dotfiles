@@ -35,6 +35,7 @@ end
 singleapps = {
   {'b', 'Slack'},
   {'c', 'Google Chrome'},
+  {'d', 'Mailplane'},
   {'m', 'Messages'},
   {'n', 'Sonos'},
   {'o', 'Visual Studio Code'},
