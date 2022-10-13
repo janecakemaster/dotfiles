@@ -1,8 +1,9 @@
 export ZSH=$HOME/.oh-my-zsh
 
 ZSH_THEME="cloud"
+ZSH_THEME_CLOUD_PREFIX='▲'
 COMPLETION_WAITING_DOTS="true" DISABLE_UNTRACKED_FILES_DIRTY="true"
-plugins=(gitfast zsh-syntax-highlighting npm)
+plugins=(aliases git gitfast)
 
 source $ZSH/oh-my-zsh.sh
 export LANG=en_US.UTF-8
@@ -11,8 +12,6 @@ export PATH="/usr/local/bin:$PATH"
 
 # aliases
 alias rmf='rm -rf'
-alias nr='repl.history'
-alias updateall='brew update && brew upgrade && nvm use && npm -g upgrade'
 
 ## git
 alias gum='git pull --rebase origin master' 
@@ -27,7 +26,3 @@ alias snafu='echo "reset to master" && git fetch --all && git reset --hard origi
 alias gmz='git merge -X theirs'
 
 cmdz () { alias | grep "$1" }
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

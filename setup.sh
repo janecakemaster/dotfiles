@@ -1,12 +1,18 @@
-#!/usr/bin/env bash
-cd ~
-rm -f ~/.zshrc ~/.vimrc.before.local ~/.vimrc.bundles.local ~/.vimrc.local
+#!/usr/bin/env zsh
 
-# cp ~/dotfiles/karabiner.json ~/.config/karabiner/karabiner.json
-cp ~/dotfiles/hammerspoon.lua ~/.hammerspoon/init.lua
+echo 'configuring git'
 cp ~/dotfiles/.gitconfig ~/.gitconfig
+
+echo 'configuring git ignore'
+cp ~/dotfiles/.gitignore_global ~/.gitignore_glboal
+git config --global core.excludesfile ~/.gitignore_global
+
+echo 'setting up symlinks'
+rm ~/.zshrc ~/.vimrc.before.local ~/.vimrc.bundles.local  ~/.vimrc.local
 ln -s ~/dotfiles/.zshrc ~/.zshrc
 ln -s ~/dotfiles/.vimrc.before.local ~/.vimrc.before.local
 ln -s ~/dotfiles/.vimrc.bundles.local ~/.vimrc.bundles.local
 vim +PluginInstall +qall
 ln -s ~/dotfiles/.vimrc.local ~/.vimrc.local
+
+~/dotfiles/.macos
