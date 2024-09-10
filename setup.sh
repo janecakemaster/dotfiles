@@ -3,11 +3,11 @@
 echo 'configuring git'
 cp ~/dotfiles/.gitconfig ~/.gitconfig
 
-echo 'configuring git ignore'
-cp ~/dotfiles/.gitignore_global ~/.gitignore_glboal
+echo 'configuring git ignore global'
+cp ~/dotfiles/.gitignore_global ~/.gitignore_global
 git config --global core.excludesfile ~/.gitignore_global
 
-echo 'setting up symlinks'
+echo 'resetting symlinks'
 rm ~/.zshrc ~/.vimrc.before.local ~/.vimrc.bundles.local  ~/.vimrc.local
 ln -s ~/dotfiles/.zshrc ~/.zshrc
 ln -s ~/dotfiles/.vimrc.before.local ~/.vimrc.before.local
