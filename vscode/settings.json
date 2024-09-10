@@ -1,0 +1,103 @@
+{
+  "workbench.colorTheme": "GitHub Dark",
+  "workbench.preferredDarkColorTheme": "GitHub Dark",
+  "workbench.preferredHighContrastColorTheme": "GitHub Dark Default",
+  "workbench.preferredHighContrastLightColorTheme": "GitHub Light High Contrast",
+  "workbench.preferredLightColorTheme": "GitHub Light",
+  "window.autoDetectColorScheme": true,
+  "workbench.iconTheme": "vs-minimal",
+  "workbench.startupEditor": "none",
+  "editor.minimap.enabled": false,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "terminal.external.osxExec": "iTerm.app",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.autoSave": "afterDelay",
+  "editor.fontSize": 16,
+  "editor.tabSize": 2,
+  "editor.tokenColorCustomizations": {
+    "[*Light*]": {
+      "textMateRules": [
+        {
+          "scope": "ref.matchtext",
+          "settings": {
+            "foreground": "#000"
+          }
+        }
+      ]
+    },
+    "[*Dark*]": {
+      "textMateRules": [
+        {
+          "scope": "ref.matchtext",
+          "settings": {
+            "foreground": "#fff"
+          }
+        }
+      ]
+    },
+    "textMateRules": [
+      {
+        "scope": "keyword.other.dotenv",
+        "settings": {
+          "foreground": "#FF000000"
+        }
+      }
+    ]
+  },
+  "terminal.integrated.fontSize": 16,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "vim.commandLineModeKeyBindings": [],
+  "vim.handleKeys": {
+    "<C-d>": true,
+    "<C-s>": false,
+    "<C-z>": false
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "comments.openView": "never",
+  "githubPullRequests.pullBranch": "never",
+  "debug.javascript.autoAttachFilter": "smart",
+  "editor.wordWrap": "on",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDelete": false,
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "explorer.confirmDragAndDrop": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "redhat.telemetry.enabled": false,
+  "editor.inlineSuggest.enabled": true,
+  "files.associations": {
+    ".env*": "dotenv"
+  },
+  "vs-kubernetes": {
+    "vscode-kubernetes.helm-path-mac": "/Users/janekim/.vs-kubernetes/tools/helm/darwin-arm64/helm",
+    "vscode-kubernetes.kubectl-path-mac": "/Users/janekim/.vs-kubernetes/tools/kubectl/kubectl",
+    "vscode-kubernetes.minikube-path-mac": "/Users/janekim/.vs-kubernetes/tools/minikube/darwin-arm64/minikube"
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always"
+}
