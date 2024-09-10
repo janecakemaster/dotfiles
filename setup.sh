@@ -15,6 +15,7 @@ ln -s ~/dotfiles/.vimrc.bundles.local ~/.vimrc.bundles.local
 vim +PluginInstall +qall
 ln -s ~/dotfiles/.vimrc.local ~/.vimrc.local
 
+# theme requires https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme
 cp ~/dotfiles/vscode/settings.json ~/Library/Application Support/Code/User/settings.json
 cp ~/dotfiles/vscode/keybindings.json ~/Library/Application Support/Code/User/keybindings.json
 
