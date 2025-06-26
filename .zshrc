@@ -2,7 +2,15 @@ export ZSH=$HOME/.oh-my-zsh
 
 ZSH_THEME="cloud"
 COMPLETION_WAITING_DOTS="true" DISABLE_UNTRACKED_FILES_DIRTY="true"
-plugins=(aliases git gitfast)
+plugins=(
+aliases 
+git 
+gitfast 
+npm 
+zsh-autosuggestions
+zsh-syntax-highlighting
+fast-syntax-highlighting
+)
 
 source $ZSH/oh-my-zsh.sh
 export LANG=en_US.UTF-8
@@ -25,3 +33,5 @@ alias snafu='echo "reset to master" && git fetch --all && git reset --hard origi
 alias gmz='git merge -X theirs'
 
 cmdz () { alias | grep "$1" }
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
