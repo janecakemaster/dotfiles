@@ -4,12 +4,18 @@ ZSH_THEME="cloud"
 COMPLETION_WAITING_DOTS="true" DISABLE_UNTRACKED_FILES_DIRTY="true"
 plugins=(
 aliases 
-git 
+aws
+brew
+colorize
+docker
+docker-compose
+git
 gitfast 
+iterm2
+nvm
 npm 
 zsh-autosuggestions
 zsh-syntax-highlighting
-fast-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -35,3 +41,6 @@ alias gmz='git merge -X theirs'
 cmdz () { alias | grep "$1" }
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
+
+fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
+autoload -U compinit && compinit
