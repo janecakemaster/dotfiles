@@ -37,6 +37,7 @@ alias ggfpush='git push origin +$(git_current_branch)'
 greset () { git reset --soft HEAD~$1 }
 alias snafu='echo "reset to master" && git fetch --all && git reset --hard origin/master'
 alias gmz='git merge -X theirs'
+alias gbda='git branch | grep -v "main" | xargs git branch -D'
 
 cmdz () { alias | grep "$1" }
 
