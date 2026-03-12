@@ -45,3 +45,34 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
 autoload -U compinit && compinit
+
+# pnpm
+export PNPM_HOME="/Users/jane/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+
+
+export INSTALLED_PATH="/Users/jane/.tizen-extension-platform/server/sdktools/data"
+
+export PATH=$INSTALLED_PATH:$PATH
+
+export TIZEN_SDK_ROOT="/Users/jane/.tizen-extension-platform/server/sdktools/data"
+
+export PATH=$TIZEN_SDK_ROOT:$PATH
+
+export TIZEN_SDK="/Users/jane/.tizen-extension-platform/server/sdktools/data"
+
+export PATH=$TIZEN_SDK:$PATH
+
+export TIZEN_TOOLS_PATH="/Users/jane/.tizen-extension-platform/server/sdktools/data/tools"
+
+export PATH=$TIZEN_TOOLS_PATH:$PATH
+
+export TIZEN_CLI_PATH="/Users/jane/.tizen-extension-platform/server/sdktools/data/tools/ide/bin"
+
+export PATH=$TIZEN_CLI_PATH:$PATH
+
+. "$HOME/.local/bin/env"
