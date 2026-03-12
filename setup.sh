@@ -8,6 +8,7 @@ cp ~/dotfiles/.gitignore_global ~/.gitignore_global
 git config --global core.excludesfile ~/.gitignore_global
 
 echo 'resetting symlinks'
+rm -rf ~/.claude && ln -s ~/dotfiles/claude ~/.claude
 rm ~/.zshrc ~/.vimrc.before.local ~/.vimrc.bundles.local  ~/.vimrc.local
 ln -s ~/dotfiles/.zshrc ~/.zshrc
 ln -s ~/dotfiles/.vimrc.before.local ~/.vimrc.before.local
