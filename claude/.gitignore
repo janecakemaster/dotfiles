@@ -19,7 +19,5 @@ tasks/
 teams/
 telemetry/
 todos/
-projects/**/*.jsonl
-projects/**/*.meta.json
-projects/**/subagents/
-projects/**/tool-results/
+projects/
+mcp-needs-auth-cache.json
