@@ -8,7 +8,22 @@
       "Read(//var/folders/*)"
     ]
   },
-  "model": "opus",
+  "model": "opus[1m]",
+  "enabledPlugins": {
+    "code-simplifier@claude-plugins-official": true,
+    "context7@claude-plugins-official": true,
+    "superpowers@claude-plugins-official": true,
+    "context-mode@context-mode": true
+  },
+  "extraKnownMarketplaces": {
+    "context-mode": {
+      "source": {
+        "source": "github",
+        "repo": "mksglu/claude-context-mode"
+      }
+    }
+  },
+  "effortLevel": "high",
   "feedbackSurveyState": {
     "lastShownTime": 1753923207992
   },

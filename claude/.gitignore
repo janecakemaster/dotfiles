@@ -1,6 +1,7 @@
 backups/
 cache/
 chrome/
+context-mode/
 debug/
 file-history/
 history.jsonl
@@ -11,7 +12,9 @@ plugins/
 policy-limits.json
 remote-settings.json
 session-env/
+sessions/
 shell-snapshots/
+skills/
 slash_commands/
 stats-cache.json
 statsig/
