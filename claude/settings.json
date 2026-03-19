@@ -5,7 +5,8 @@
   "permissions": {
     "allow": [
       "WebFetch(domain:*)",
-      "Read(//var/folders/*)"
+      "Read(//var/folders/*)",
+      "Bash(gh *)"
     ]
   },
   "model": "opus[1m]",
@@ -24,8 +25,93 @@
     }
   },
   "effortLevel": "high",
+  "additionalDirectories": [
+    "/Users/jane/Desktop/work-notes",
+    "/Users/jane/weekend-repos"
+  ],
   "feedbackSurveyState": {
     "lastShownTime": 1753923207992
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/jane/.claude/hooks/check-settings-junk.sh",
+            "timeout": 5,
+            "statusMessage": "Checking settings..."
+          },
+          {
+            "type": "command",
+            "command": "/Users/jane/.claude/hooks/top-todos.sh",
+            "timeout": 5,
+            "statusMessage": "Loading todos..."
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/jane/.claude/hooks/git-warnings.sh",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/jane/.claude/hooks/dave-notes-reminder.sh",
+            "timeout": 5
+          },
+          {
+            "type": "command",
+            "command": "/Users/jane/.claude/hooks/format-markdown.sh",
+            "timeout": 10,
+            "statusMessage": "Formatting..."
+          }
+        ]
+      },
+      {
+        "matcher": "Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/jane/.claude/hooks/format-markdown.sh",
+            "timeout": 10,
+            "statusMessage": "Formatting..."
+          }
+        ]
+      },
+      {
+        "matcher": "mcp__claude_ai_Notion__notion-create-pages|mcp__claude_ai_Notion__notion-update-page",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/jane/.claude/hooks/notion-contributions-reminder.sh",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/jane/.claude/hooks/precompact-save-context.sh",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
   },
   "mcp": {
     "servers": {}
