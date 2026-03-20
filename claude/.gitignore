@@ -22,5 +22,8 @@ tasks/
 teams/
 telemetry/
 todos/
-projects/
+projects/**
+!projects/*/
+!projects/*/memory/
+!projects/*/memory/**
 mcp-needs-auth-cache.json
