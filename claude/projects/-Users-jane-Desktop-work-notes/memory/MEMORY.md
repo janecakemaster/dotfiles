@@ -6,9 +6,12 @@
 - Jane is EM of Hub team at Weekend (formerly Volley) since Sept 2025
 - **Beena left the company on 2/25/2026.** As of 2/25 (retroactive to 1/5): Jane reports to Dave (VP Eng)
 - Kevin K now rolls up to Jane (retroactive to 1/5)
-- **Hub team staffing (pending reorg 3/20)**: Kevin K (tech lead), Yoav — 2 confirmed Hub reports. Shane Austrie TBD — Alex raised performance concerns, Jane has 1-1 with Shane on 3/19 to form own assessment. Yoav is full-time (40hr/wk) but in Canary Islands timezone — overlap with US team ends ~2pm. Jane moonlights IC work to fill gaps. Dana left 2026-03-03. **1 open req remaining** (growth engineer). Galactic contractors (Laci, Bence) maintain lets-party/Roku checkout.
-- **Mobile team**: Micko (from Platform Foundation) reports to Jane but under a separate "Mobile" team, not Hub. Greeshma confirmed going to Platform.
-- **Alex (EM, Platform Foundation) leaves 2026-03-20.** Platform reorg happens same day — Foundation absorbed into Platform Services (becomes "Platform"). Tyler, Liz, Shane, Lior move to Harsh's team.
+- **Jane's 5 direct reports (as of 3/23)**:
+  - Hub: Kevin K (tech lead), Yoav (contractor), Shane Austrie (OOO until Apr 2)
+  - Mobile: Micko, Maks (contractor)
+- Yoav is full-time (40hr/wk) but in Canary Islands timezone — overlap with US team ends ~2pm. Jane moonlights IC work to fill gaps. Dana left 2026-03-03. **1 open req remaining** (growth engineer). Galactic contractors (Laci, Bence) maintain lets-party/Roku checkout.
+- Greeshma started 3/23 on Platform (Harsh's team).
+- **Alex (EM, Platform Foundation) left 2026-03-20.** Platform reorg happened same day — Foundation absorbed into Platform Services (becomes "Platform"). Tyler, Liz, Lior move to Harsh's team. Shane moved to Hub (Jane).
 - [project_unified_subscription.md](project_unified_subscription.md) - Hub driving unified cross-platform subscription + Stable Account ID
 - Goal: Stay at least 1 year as EM, 2 years at Weekend total for resume
 
@@ -48,6 +51,10 @@
 ### Scope Management
 
 - **Never add scope** to anything Jane is working on. If something seems like it could be added, always call it out before proceeding rather than just including it.
+
+## Active Projects
+
+- [project_interview_prep.md](project_interview_prep.md) - Jane is interviewing for staff backend roles. Track gaps, build reference docs in job-search/, genericize everything.
 
 ## Links
 
