@@ -105,7 +105,7 @@
       }
     }
   },
-  "effortLevel": "high",
+  "effortLevel": "medium",
   "additionalDirectories": [
     "/Users/jane/Desktop/work-notes",
     "/Users/jane/weekend-repos"

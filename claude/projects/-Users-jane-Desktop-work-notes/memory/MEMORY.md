@@ -62,3 +62,6 @@
 - [feedback_rca_voice.md](feedback_rca_voice.md) - Jane's RCA writing voice: factual, direct, systemic questions, casual eng language
 - [feedback_ashby_transcripts.md](feedback_ashby_transcripts.md) - use Ashby transcripts for interview feedback, not Granola (more accurate, Granola truncates)
 - [feedback_settings_cleanup.md](feedback_settings_cleanup.md) - proactively clean settings.local.json when one-off commands accumulate
+- [feedback_todos_cleanup.md](feedback_todos_cleanup.md) - remove done items from todos.md entirely, don't strikethrough
+- [feedback_todos_linear.md](feedback_todos_linear.md) - /todo creates Linear issues (Hub default, Mobile if scoped), not todos.md entries
+- [feedback_recap_linear_comments.md](feedback_recap_linear_comments.md) - at end of /recap, draft status comments on in-progress Linear issues for Jane's approval
