@@ -65,3 +65,4 @@
 - [feedback_todos_cleanup.md](feedback_todos_cleanup.md) - remove done items from todos.md entirely, don't strikethrough
 - [feedback_todos_linear.md](feedback_todos_linear.md) - /todo creates Linear issues (Hub default, Mobile if scoped), not todos.md entries
 - [feedback_recap_linear_comments.md](feedback_recap_linear_comments.md) - at end of /recap, draft status comments on in-progress Linear issues for Jane's approval
+- [feedback_linear_comment_voice.md](feedback_linear_comment_voice.md) - Linear comments: terse, lowercase, no fluff, concrete next steps with dates
