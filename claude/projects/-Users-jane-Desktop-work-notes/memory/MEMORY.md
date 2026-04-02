@@ -33,7 +33,7 @@
 - Lead with assessment, then evidence bullets underneath
 - Direct and blunt - state gaps plainly, no hedging ("did not mention X", not "seemed to have difficulty with X")
 - Call out open questions honestly ("was ambiguous whether TC led this or was handed a spec")
-- Use emdashes sparingly
+- Never use em dashes - use hyphens instead
 - Lowercase, casual tone in summary lines - sharp observer notes, not formal report
 - Technically specific without over-explaining
 - No softening language (no "perhaps", "it seems like", "could potentially")
@@ -67,3 +67,4 @@
 - [feedback_recap_linear_comments.md](feedback_recap_linear_comments.md) - at end of /recap, draft status comments on in-progress Linear issues for Jane's approval
 - [feedback_recap_check_linear.md](feedback_recap_check_linear.md) - /recap must check Linear for created/completed/updated issues during the window
 - [feedback_linear_comment_voice.md](feedback_linear_comment_voice.md) - Linear comments: terse, lowercase, no fluff, concrete next steps with dates
+- [feedback_no_mdashes.md](feedback_no_mdashes.md) - never use em dashes in any output
