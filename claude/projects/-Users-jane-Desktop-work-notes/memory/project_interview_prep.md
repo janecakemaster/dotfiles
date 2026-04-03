@@ -24,3 +24,4 @@ Jane is interviewing externally for staff backend engineer roles.
 
 - `job-search/tv-auth-pairing-reference.md` — technical deep-dive on auth pairing (needs genericizing)
 - `job-search/behavioral-stories-reference.md` — 10 genericized behavioral stories mapped to common questions
+- `job-search/stories/legacy-backend-modernization.md` — deep-dive reference for legacy backend modernization story (rewrite pivot, 30+ PRs, CI/CD, observability, testing)
