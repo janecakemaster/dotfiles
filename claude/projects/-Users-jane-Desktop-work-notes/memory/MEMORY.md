@@ -6,8 +6,8 @@
 - Jane is EM of Hub team at Weekend (formerly Volley) since Sept 2025
 - **Beena left the company on 2/25/2026.** As of 2/25 (retroactive to 1/5): Jane reports to Dave (VP Eng)
 - Kevin K now rolls up to Jane (retroactive to 1/5)
-- **Jane's 5 direct reports (as of 3/23)**:
-  - Hub: Kevin K (tech lead), Yoav (contractor), Shane Austrie (OOO until Apr 2)
+- **Jane's direct reports (as of 4/5)**:
+  - Hub: Kevin K (tech lead), Yoav (contractor), Shane Austrie (leaving - last day 4/16)
   - Mobile: Micko, Maks (contractor)
 - Yoav is full-time (40hr/wk) but in Canary Islands timezone — overlap with US team ends ~2pm. Jane moonlights IC work to fill gaps. Dana left 2026-03-03. **1 open req remaining** (growth engineer). Galactic contractors (Laci, Bence) maintain lets-party/Roku checkout.
 - Greeshma started 3/23 on Platform (Harsh's team).
@@ -68,3 +68,4 @@
 - [feedback_recap_check_linear.md](feedback_recap_check_linear.md) - /recap must check Linear for created/completed/updated issues during the window
 - [feedback_linear_comment_voice.md](feedback_linear_comment_voice.md) - Linear comments: terse, lowercase, no fluff, concrete next steps with dates
 - [feedback_no_mdashes.md](feedback_no_mdashes.md) - never use em dashes in any output
+- [feedback_use_askuserquestion.md](feedback_use_askuserquestion.md) - use AskUserQuestion tool when surfacing multiple open threads or questions
