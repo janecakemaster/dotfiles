@@ -1,1 +1,0 @@
-- [Proactively leverage all plugins](feedback_leverage_plugins.md) — Use all installed plugins (context-mode, context7, superpowers, weekend-docs, etc.) actively instead of defaulting to built-in tools
