@@ -9,7 +9,7 @@
 - **Jane's direct reports (as of 4/5)**:
   - Hub: Kevin K (tech lead), Yoav (contractor), Shane Austrie (leaving - last day 4/16)
   - Mobile: Micko, Maks (contractor)
-- Yoav is full-time (40hr/wk) but in Canary Islands timezone — overlap with US team ends ~2pm. Jane moonlights IC work to fill gaps. Dana left 2026-03-03. **1 open req remaining** (growth engineer). Galactic contractors (Laci, Bence) maintain lets-party/Roku checkout.
+- Yoav is full-time (40hr/wk) but in Canary Islands timezone — overlap with US team ends ~2pm. Jane moonlights IC work to fill gaps. Dana left 2026-03-03. **2 open reqs**. Galactic contractors (Laci, Bence) maintain lets-party/Roku checkout.
 - Greeshma started 3/23 on Platform (Harsh's team).
 - **Alex (EM, Platform Foundation) left 2026-03-20.** Platform reorg happened same day — Foundation absorbed into Platform Services (becomes "Platform"). Tyler, Liz, Lior move to Harsh's team. Shane moved to Hub (Jane).
 - [project_unified_subscription.md](project_unified_subscription.md) - Hub driving unified cross-platform subscription + Stable Account ID

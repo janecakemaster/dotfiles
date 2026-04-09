@@ -25,6 +25,12 @@
             "command": "/Users/jane/.claude/hooks/top-todos.sh",
             "timeout": 5,
             "statusMessage": "Loading todos..."
+          },
+          {
+            "type": "command",
+            "command": "/Users/jane/.claude/hooks/plugin-reminder.sh",
+            "timeout": 3,
+            "statusMessage": "Loading available plugins..."
           }
         ]
       }
@@ -69,6 +75,16 @@
         ]
       },
       {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/jane/.claude/hooks/context-mode-reminder.sh",
+            "timeout": 2
+          }
+        ]
+      },
+      {
         "matcher": "mcp__claude_ai_Notion__notion-create-pages|mcp__claude_ai_Notion__notion-update-page",
         "hooks": [
           {
@@ -100,7 +116,9 @@
     "context7@claude-plugins-official": true,
     "superpowers@claude-plugins-official": true,
     "context-mode@context-mode": true,
-    "skill-creator@claude-plugins-official": true
+    "skill-creator@claude-plugins-official": true,
+    "code-review@claude-plugins-official": true,
+    "claude-md-management@claude-plugins-official": true
   },
   "extraKnownMarketplaces": {
     "context-mode": {
@@ -120,6 +138,14 @@
     "lastShownTime": 1753923207992
   },
   "mcp": {
-    "servers": {}
+    "servers": {
+      "weekend-docs-mcp": {
+        "command": "node",
+        "args": [
+          "/Users/jane/weekend-repos/weekend-docs-mcp/dist/index.js"
+        ],
+        "cwd": "/Users/jane/weekend-repos/weekend-docs-mcp"
+      }
+    }
   }
 }
